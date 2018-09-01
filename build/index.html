@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Title</title>
+<link href="/app.bf0561df.css" rel="stylesheet"></head>
+<body>
+<div id="root" class="height-all"></div>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=4IU3oIAMpZhfWZsMu7xzqBBAf6vMHcoa"></script>
+<script>
+    var doc=document.documentElement;
+    function recalc(){
+        var clientWidth=doc.clientWidth;
+        doc.style.fontSize=clientWidth/640*16+'px';
+
+    }
+    recalc();
+    window.addEventListener('resize',recalc)
+    window.BMap = BMap;
+    var BMap = window.BMap;//取出window中的BMap对象
+    var myCity = new BMap.LocalCity();
+    let WeatherLists = {};
+
+       myCity.get(function (result) {
+            localStorage.setItem('CITY_NAME',result.name)
+                      //城市名称
+
+        });
+</script>
+
+<script type="text/javascript" src="/libs.965df9d7.js"></script><script type="text/javascript" src="/app.f376d394.js"></script></body>
+</html>
