@@ -1,0 +1,17 @@
+.catogory li{
+    list-style-type:none;
+    text-align: center;
+}
+.catogory{
+    /*flex:3;*/
+    color:#3c3c3c;
+}
+.catogory i{
+    font-size:3rem;
+
+    color:#2B8094;
+}
+.catogory ul{
+    flex:3;
+    padding-top:1rem;
+}

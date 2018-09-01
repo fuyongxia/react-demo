@@ -1,0 +1,18 @@
+
+.carousel li{
+    width:0.7rem;
+    height:0.7rem;
+    border-radius:0.7rem;
+    background-color: grey;
+    display:inline-block;
+    margin:0.5rem;
+}
+.carousel li.selected{
+    background-color: #2b81af;
+}
+.carousel img{
+    width:auto;
+    height:10rem;
+    max-width:100%;
+    max-height:100%;
+}

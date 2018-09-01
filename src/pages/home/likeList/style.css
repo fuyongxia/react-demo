@@ -1,0 +1,30 @@
+.like-list img{
+    width:80%;
+    height:100%;
+}
+.like-list .flex-row{
+    margin:0 1rem;
+    padding:1rem 0;
+    border-bottom:0.1rem solid #eee;
+}
+.like-list .shopName{
+    font-size:1.4rem;
+    font-weight:bold;
+
+}
+.like-list .disc{
+    font-size:0.8rem;
+    color:#aaa;
+
+}
+.like-list .price{
+    font-size:1rem;
+    color:red;
+
+}
+.like-list .title{
+    margin-top:0.2rem;
+    padding:0.5rem 0;
+    color:#aaa;
+    text-align: center;
+}

@@ -1,0 +1,99 @@
+ul,ul li{
+    padding:0;
+    margin:0;
+}
+html{
+    padding:0;
+    margin:0;
+    height:100%;
+}
+body{
+    padding:0;
+    margin:0;
+    height:100%;
+    display: flex;
+    flex-direction:column;
+
+}
+.color-white{
+    color:white
+}
+.fl{
+    float:left
+}
+.fr{
+    float:right
+}
+.cliear-fix:after{
+    content:"";
+    displat:block;
+    clear:both
+}
+.flex-row{
+    display:flex;
+    flex-direction:row
+}
+.flex-column{
+    display:flex;
+    flex-direction:column
+}
+.flex-justify-start{
+     justify-content:flex-start
+ }
+.v-justify-between{
+     justify-content:space-between
+ }
+.flex-justify-end{
+    justify-content:flex-end
+}
+.flex-justify-around{
+    justify-content:space-around
+}
+.flex-justify-center{
+    justify-content:center
+}
+.flex-align-start {
+    align-items: flex-start
+}
+.flex-align-end {
+    align-items:  flex-end
+}
+.flex-align-center {
+    align-items:  center
+}
+.flex-1{
+    flex:1
+}
+.flex-2{
+    flex:2
+}
+.flex-3{
+    flex:3
+}
+.flex-4{
+    flex:4
+}
+input.border-none{
+    border:none;
+    outline:none
+}
+
+.padder-sm{
+    padding:0.5rem 0;
+}
+.padder-md{
+    padding:1rem 0;
+}
+.text-center{
+    text-align: center;
+}
+.height-all{
+    height:100%
+}
+input::-webkit-input-placeholder{
+    color:#ccc
+}
+a{
+    text-underline: none;
+    text-decoration: none;
+}

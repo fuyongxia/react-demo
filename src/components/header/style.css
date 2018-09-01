@@ -1,0 +1,19 @@
+
+.commonHeader{
+    /*flex:1;*/
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2B8094;
+    color:white;
+    padding:1.2rem 0;
+    font-size:1.5rem;
+
+}
+.commonHeader i{
+    font-size:2rem
+}
+.commonHeader .title{
+    flex:10;
+    margin-left:-2rem;
+
+}

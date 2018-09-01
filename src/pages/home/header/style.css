@@ -1,0 +1,39 @@
+.header{
+    /*flex:1;*/
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2B8094;
+    color:#ccc;
+    padding:1.2rem 0;
+    font-size:1.5rem;
+
+}
+.header span{
+    margin:0 0.5rem
+}
+.header-input{
+    display:flex;
+    flex-direction: row;
+    background-color: white;
+    height:100%;
+    border:1px solid #ccc;
+    border-radius:0.4rem;
+    padding:0.1rem 0;
+}
+
+.header-input i{
+    flex:2;
+    color:#ccc;
+    margin:0.1rem 0.4rem;
+
+}
+.header-input input{
+    flex:8
+}
+
+.padding-left{
+    padding-left:1rem
+}
+.header a{
+    color:white
+}
